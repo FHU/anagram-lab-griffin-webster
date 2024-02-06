@@ -30,7 +30,5 @@ if __name__ == '__main__':
     answer = anagram(word1, word2)
     print(answer)
 
-anagram(word1, word2)
-
 
     
