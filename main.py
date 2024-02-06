@@ -21,6 +21,7 @@ def anagram(word1, word2):
 
 if __name__ == '__main__':
     #REMOVE PASS YOUR CODE GOES HERE
+    #test
     word1 = input("Input a word: ")
     word1 = word1.lower()
     word2 = input("Input a word: ")
