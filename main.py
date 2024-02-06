@@ -3,8 +3,8 @@ def anagram(word1, word2):
     if len(word1) == len(word2):
         list1 = list(word1)
         list2 = list(word2)
-        list1 = list1.sort()
-        list2 = list2.sort()
+        list1.sort()
+        list2.sort()
         for i in range(len(list1)):
             if list1[i] == list2[i]:
                 continue
@@ -27,8 +27,6 @@ if __name__ == '__main__':
     word2 = word2.lower()
     word1 = word1.replace(" ", "")
     word2 = word2.replace(" ", "")
-    word1 = word1.isalpha()
-    word2 = word2.isalpha()
     answer = anagram(word1, word2)
     print(answer)
 
